@@ -26,6 +26,7 @@ while create_tree:
         except ValueError:
             print("Invalid input. Please enter a number between 3 and 100.")
 
+    # else:
     density = int(input('Do you want a dense (1) or a less dense (2) Christmas tree? Type "1" or "2". '))
     if density != 1 and density != 2:
         density = input('Invalid input. Please choose "1" (dense) or "2" (less dense). ')
@@ -62,6 +63,7 @@ while create_tree:
             spaces = spaces - 2
 
     print("\nTip: If you copy the result and use it in another program, please make sure to select a monospaced font.")
-    again = input('Do you want to create another Christmas tree? Type "y" or "n". ')
+    again = input('\nDo you want to create another Christmas tree? Type "y" or "n". ')
     if again != "y":
         create_tree = False
+        
