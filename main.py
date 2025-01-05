@@ -40,7 +40,7 @@ while create_tree:
     print("\n")
 
     if density == 1:
-        spaces = size - 1
+        spaces -= 1
 
         for _ in range(size):
             print(" " * spaces + char * increase_char)
@@ -56,7 +56,7 @@ while create_tree:
         for _ in range(size - round(size / 2)):
             print(" " * spaces + char * increase_char + "\n")
             increase_char += 4
-            spaces = spaces - 2
+            spaces -= 2
 
     print(
         "\n⚠️ Tip: If you copy the result to use it in another program, please make sure to select a monospaced font.")
