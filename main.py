@@ -7,7 +7,7 @@ logo = r"""
 
         * GENERATOR *
 
-      **** by  wmd ****
+      ** by dabblyou **
 """
 
 print(logo + "\n")
